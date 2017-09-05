@@ -46,18 +46,21 @@ body {
 .icon {
   margin: auto;
   height: 200px;
+  display: block;
 }
 
 .title {
   color: #000;
   font-size: 20px;
   font-weight: bold;
+    text-align: center;
 }
 
 .developer {
   color: #afafaf;
   font-size: 14px;
   width: 100%;
+    text-align: center;
 }
 
 .price {
@@ -67,6 +70,7 @@ body {
   width: 60px;
   border-bottom: 5px solid #000;
   text-align: center;
+  margin-left: 37%;
 }
 
 .main button {
@@ -76,9 +80,10 @@ body {
   border: none;
   border: 1px solid #000;
   font-size: 14px;
-  margin: 40px 20px;
+  margin: auto;
   padding: 2px 20px;
   border-radius: 2px;
+  display: block;
 }
 
 .main button:hover {
