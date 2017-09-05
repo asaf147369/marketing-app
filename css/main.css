@@ -76,7 +76,6 @@ body {
   border: none;
   border: 1px solid #000;
   font-size: 14px;
-  font-weight: 200;
   margin: 40px 20px;
   padding: 2px 20px;
   border-radius: 2px;
@@ -87,13 +86,4 @@ body {
   background: rgba(255, 80, 80, 0.25);
   transition: background 500ms;
   border: 1px solid rgb(255, 80, 80);
-}
-
-.main button:focus {
-  outline: 0;
-}
-
-.main button.btn-downloaded {
-  background-color: #ababab;
-  color: #3f3f3f;
 }
