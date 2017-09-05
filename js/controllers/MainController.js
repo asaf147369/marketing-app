@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.fruits = [
-  	{
+  	{ 
     	icon: 'img/PineApple.jpg',
     	title: 'Pineapple',
     	developer: 'FRUITS, Inc.',
